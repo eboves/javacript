@@ -60,41 +60,83 @@
  */
 
 
+//
+//const [dolphinsOne, dolphinsTwo, dolphinsThree] = [125, 112, 101];
+//const [koalaOne, koalaTwo, koalaThree] = [109, 95, 106];
+//
+//const dolphinsAve = Number((dolphinsOne + dolphinsTwo + dolphinsThree)/3).toFixed(2);
+//const koalaAve = Number((koalaOne + koalaTwo + koalaThree)/3).toFixed(2);
+//
+//console.log(dolphinsAve);
+//console.log(koalaAve);
+//
+//if(koalaAve > dolphinsAve ){
+//    console.log(`Koalas won ${koalaAve} to ${dolphinsAve} Dolphins`)
+//}else if(dolphinsAve > koalaAve){
+//    console.log(`Dolphins won ${dolphinsAve} to ${koalaAve} Koalas`);
+//}else{
+//    console.log('DRAW'); 
+//}
+//
+//// BONUS!!!!!
+//
+//if(dolphinsAve > koalaAve && dolphinsAve >= 100){
+//    console.log(`Dolphins won by ${dolphinsAve} to ${koalaAve} Koalas`);
+//}else if(koalaAve > dolphinsAve && koalaAve >= 100){
+//    console.log(`Koalas won ${koalaAve} to ${dolphinsAve} Dolphins`);
+//}else if(dolphinsAve === koalaAve && dolphinsAve >= 100 && koalaAve >= 100){
+//    console.log('DRAW!')
+//}else{
+//    console.log('No team WON the Trophy');
+//}
+//
+//
 
-const [dolphinsOne, dolphinsTwo, dolphinsThree] = [125, 112, 101];
-const [koalaOne, koalaTwo, koalaThree] = [109, 95, 106];
 
-const dolphinsAve = Number((dolphinsOne + dolphinsTwo + dolphinsThree)/3).toFixed(2);
-const koalaAve = Number((koalaOne + koalaTwo + koalaThree)/3).toFixed(2);
+/*
 
-console.log(dolphinsAve);
-console.log(koalaAve);
+	SWITCH AND IF
 
-if(koalaAve > dolphinsAve ){
-    console.log(`Koalas won ${koalaAve} to ${dolphinsAve} Dolphins`)
-}else if(dolphinsAve > koalaAve){
-    console.log(`Dolphins won ${dolphinsAve} to ${koalaAve} Koalas`);
-}else{
-    console.log('DRAW'); 
+ */
+ 
+const day = 'monday';
+switch(day){
+	case 'monday':
+		console.log('practice programming and go to work');
+		break;
+	case 'tuesday':
+	case 'wednesday':
+		console.log('days off!!');
+		break;
+	case 'thursday':
+		console.log('first day of work');
+		console.log('go to the gym');
+		break;
+	case 'friday':
+		console.log('longest day of work');
+		break;
+	case 'saturday':
+	case 'sunday':
+		console.log('finally some easy days');
+		break;
+	default:
+		console.log('q perreria');
 }
 
-// BONUS!!!!!
-
-if(dolphinsAve > koalaAve && dolphinsAve >= 100){
-    console.log(`Dolphins won by ${dolphinsAve} to ${koalaAve} Koalas`);
-}else if(koalaAve > dolphinsAve && koalaAve >= 100){
-    console.log(`Koalas won ${koalaAve} to ${dolphinsAve} Dolphins`);
-}else if(dolphinsAve === koalaAve && dolphinsAve >= 100 && koalaAve >= 100){
-    console.log('DRAW!')
+if(day === 'monday'){
+    console.log('practice programming and go to work');
+}else if(day === 'tuesday' || day === 'wednesday'){
+    console.log('day off!!');
+}else if(day === 'thursday'){
+    console.log('first day of work');
+    console.log('go to the gym');
+}else if(day === 'friday'){
+    console.log('longest day of work');
+}else if(day === 'saturday' || day === 'sunday'){
+    console.log('finally some easy days');
 }else{
-    console.log('No team WON the Trophy');
+    console.log('q perreria');
 }
-
-
-
-
-
-
 
 
 
