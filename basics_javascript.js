@@ -98,52 +98,63 @@
 	SWITCH AND IF
 
  */
- 
-const day = 'monday';
-switch(day){
-	case 'monday':
-		console.log('practice programming and go to work');
-		break;
-	case 'tuesday':
-	case 'wednesday':
-		console.log('days off!!');
-		break;
-	case 'thursday':
-		console.log('first day of work');
-		console.log('go to the gym');
-		break;
-	case 'friday':
-		console.log('longest day of work');
-		break;
-	case 'saturday':
-	case 'sunday':
-		console.log('finally some easy days');
-		break;
-	default:
-		console.log('q perreria');
-}
-
-if(day === 'monday'){
-    console.log('practice programming and go to work');
-}else if(day === 'tuesday' || day === 'wednesday'){
-    console.log('day off!!');
-}else if(day === 'thursday'){
-    console.log('first day of work');
-    console.log('go to the gym');
-}else if(day === 'friday'){
-    console.log('longest day of work');
-}else if(day === 'saturday' || day === 'sunday'){
-    console.log('finally some easy days');
-}else{
-    console.log('q perreria');
-}
-
-
+// 
+//const day = 'monday';
+//switch(day){
+//	case 'monday':
+//		console.log('practice programming and go to work');
+//		break;
+//	case 'tuesday':
+//	case 'wednesday':
+//		console.log('days off!!');
+//		break;
+//	case 'thursday':
+//		console.log('first day of work');
+//		console.log('go to the gym');
+//		break;
+//	case 'friday':
+//		console.log('longest day of work');
+//		break;
+//	case 'saturday':
+//	case 'sunday':
+//		console.log('finally some easy days');
+//		break;
+//	default:
+//		console.log('q perreria');
+//}
+//
+//if(day === 'monday'){
+//    console.log('practice programming and go to work');
+//}else if(day === 'tuesday' || day === 'wednesday'){
+//    console.log('day off!!');
+//}else if(day === 'thursday'){
+//    console.log('first day of work');
+//    console.log('go to the gym');
+//}else if(day === 'friday'){
+//    console.log('longest day of work');
+//}else if(day === 'saturday' || day === 'sunday'){
+//    console.log('finally some easy days');
+//}else{
+//    console.log('q perreria');
+//}
 
 
+/*
+
+     THIS IS THE FOURTH CHALLENGE
+
+ */
 
 
 
+// tip calculator 15% if bill btw 50 and 300 above 20%
+
+const tip15 = 0.15;
+const tip20 = 0.20;
+const bill = 25;
+
+const tip = (bill >= 50 && bill <= 300) ? bill * tip15 : bill * tip20;
+console.log(`The bill was ${bill}, the tip was ${tip}, the total value is $${tip + bill}`)
 
 
 
