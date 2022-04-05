@@ -1,8 +1,10 @@
-/*
- 
- CHALLENGE 1
+ /*
+
+     THIS IS THE FIRST CHALLENGE ADVANCE
 
  */
+
+
 
 //const calcAverage = (score1, score2, score3) =>{
 //    return (score1 + score2 + score3)/3;
@@ -32,4 +34,95 @@
 //
 //console.log(data1);
 //console.log(data2);
+
+
+ /*
+
+     THIS IS THE SECOND CHALLENGE ADVANCE
+
+ */
+
+
+//function calcTip(bill){
+//    return (bill >= 50 && bill <= 300) ? bill * 0.15 : bill * 0.20;
+//}
+//const bill = [125, 555, 44];
+//const tips = [calcTip(bill[0]), calcTip(bill[1]), calcTip(bill[2])];
+//const total = [(bill[0] + tips[0]), (bill[1] + tips[1]), (bill[2] + tips[2])];
+//
+//console.log(tips);
+//console.log(total);
+//
+
+
+
+ /*
+
+     THIS IS THE THIRD CHALLENGE ADVANCE
+
+ */
+
+
+//const markMiller = {
+//    firstName: 'Mark',
+//    lastName: 'Miller',
+//    weight: 78,
+//    height: 1.69,
+//    calBMI: function(){
+//        this.bmi = Number(this.weight/(this.height ** 2)).toFixed(2);
+//        return this.bmi;
+//        
+//    },
+//    sumary: function(){
+//        
+//        return `${this.firstName} ${this.lastName}'s BMI (${this.calBMI()})`;
+//    }
+//
+//}
+//
+//const johnSmith = {
+//    firstName: 'John',
+//    lastName: 'Smith',
+//    weight: 92,
+//    height: 1.95,
+//    calBMI: function(){
+//        this.bmi = Number(this.weight/(this.height ** 2)).toFixed(2);
+//        return this.bmi;
+//    },
+//    sumary: function(){
+//        return `${this.firstName} ${this.lastName}'s BMI (${this.calBMI()})`;
+//    }
+//}
+//
+//if(markMiller.bmi > johnSmith.bmi){
+//    console.log(`${markMiller.sumary()} is higher than ${johnSmith.sumary()}`);
+//}else{
+//    console.log(`${johnSmith.sumary()} is higher than ${markMiller.sumary()}`);
+//}
+
+
+ /*
+
+     THIS IS THE FOURTH CHALLENGE ADVANCE
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
