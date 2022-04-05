@@ -107,12 +107,38 @@
 
  */
 
-
-
-
-
-
-
+//
+//const bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+//const tips = [];
+//const totals = [];
+//
+//function calcTip(bills){
+//    return (bills >= 50 && bills <= 300) ? bills * 0.15 : bills * 0.20;
+//}
+//
+//for(let i = 0; i < bills.length; i++){   
+//    const tip = calcTip(bills[i]) 
+//    tips.push(tip);
+//    totals.push(bills[i] + tip)
+//}
+//
+//console.log(tips, 'tips');
+//console.log(totals, 'totals');
+//
+//
+//
+//
+//let sum = 0;
+//
+//function calcAverage(arr){
+//    for(let i = 0; i <= arr.length - 1; i++){
+//        sum += arr[i];
+//    }
+//    return sum / arr.length;
+//}
+//
+//calcAverage(totals)
+//console.log(sum);
 
 
 
