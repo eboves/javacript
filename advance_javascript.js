@@ -142,11 +142,50 @@
 
 
 
+ /*
 
+     THIS IS THE FOURTH CHALLENGE ADVANCE
 
-
-
-
+ */
+//
+//const temp1 = [3, -2, -6, -1, 'error', 9, 13, 17, 15, 14, 9, 5];
+//const temp2 = [20, -2, -10, -1, 'error', 9, 13, 17, 'error', 14, 9, 5];
+//
+//const calvTempAmplitude = function (temps) {
+//  let max = temps[0];
+//  let min = temps[0];
+//  for (let i = 0; i <= temps.length; i++) {
+//    const curTemp = temps[i];
+//    if (typeof curTemp !== 'number') continue;
+//    if (curTemp > max) max = curTemp;
+//    if (curTemp < min) min = curTemp;
+//  }
+//
+//  return max - min;
+//};
+//
+//const amplitude = calvTempAmplitude(temp1);
+//console.log(amplitude);
+//
+//// Two arrays
+//
+//const calvTempAmplitudeNew = function (t1, t2) {
+//  const temps = t1.concat(t2);
+//
+//  let max = temps[0];
+//  let min = temps[0];
+//  for (let i = 0; i <= temps.length; i++) {
+//    const curTemp = temps[i];
+//    if (typeof curTemp !== 'number') continue;
+//    if (curTemp > max) max = curTemp;
+//    if (curTemp < min) min = curTemp;
+//  }
+//
+//  return max - min;
+//};
+//
+//const amplitudeNew = calvTempAmplitudeNew(temp1, temp2);
+//console.log(amplitudeNew);
 
 
 
